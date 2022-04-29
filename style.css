@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-image: url(bg-image.jpg);
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    width: 40%;
+    margin: 120px auto;
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 28px;
+
+}
+
+h1 {
+    padding: 20px 190px;
+    margin: 8px auto;
+}
+
+.form p {
+
+    margin: auto;
+    padding: 10px;
+}
+
+input[type="email"],
+[type="password"] {
+
+    background: transparent;
+    background-color: rbga(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 30px;
+    width: 420px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 4px 20px 4px 20px;
+}
+
+input[type="submit"] {
+    background: transparent;
+    background-color: rbga(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 170px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.email {
+    margin-left: 80px;
+    
+}
+
+.password {
+    margin-left: 80px;
+    
+}
+
+.btn1 {
+    margin-top: 25px;
+    margin-left: 190px;
+    padding: 10px 0px 10px 0px;
+}
+.btn1:hover{
+    background-color: #ffffff90;
+    /* color: black; */
+}
+.or {
+    
+    margin-top: 55px;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.fbgo{
+    display:inline;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-left: 70px; 
+    /* background-color: #ffffff1b; */
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.fb{
+
+    padding: 15px 60px 15px 60px;
+}
+.google{
+    padding: 15px 60px 15px 60px;
+    
+}
+.fbgo:hover{
+    background-color: #ffffff90;
+    /* color: rgb(0, 0, 0); */
+    
+}
